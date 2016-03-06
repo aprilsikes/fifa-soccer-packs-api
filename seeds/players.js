@@ -7,7 +7,7 @@ exports.seed = function(knex, Promise) {
       name: 'Lionel Messi',
       position: 'Attacking Midfielder',
       team: 'FC Barcelona',
-      image_url: 'https://fifa15.content.easports.com/fifa/fltOnlineAssets/B488919F-23B5-497F-9FC0-CACFB38863D0/2016/fut/items/images/players/html5/120x120/158023.png',
+      image_url: 'http://img.fifa.com/images/fwc/2014/players/prt-3/229397.png',
       fifa_rating: 93
     }),
     knex('players').insert({
