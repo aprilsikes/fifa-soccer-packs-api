@@ -12,4 +12,10 @@ router.get('/', function(req, res, next) {
   })
 });
 
+router.get('/packs', function (req, res, next) {
+  Players().select().then(function (players) {
+    res.json(players);
+  })
+})
+
 module.exports = router;
